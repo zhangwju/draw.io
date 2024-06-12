@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T02:14:23.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="K4O3UCA-09ZWYkrFS2fx" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T02:30:28.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ncVz37T6_UbRQYRfVf5l" version="24.5.3" type="github">
   <diagram name="第 1 页" id="uxeyC47pDu4yEuS4p9DA">
-    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1167" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="510" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YEWJFknuQp4a-OWQW_Oe-3" target="YEWJFknuQp4a-OWQW_Oe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="314.5" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YEWJFknuQp4a-OWQW_Oe-9" target="YEWJFknuQp4a-OWQW_Oe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YEWJFknuQp4a-OWQW_Oe-9" target="YEWJFknuQp4a-OWQW_Oe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-9" value="判断是否携带&lt;div&gt;option 79&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="338" width="131.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YEWJFknuQp4a-OWQW_Oe-12" target="YEWJFknuQp4a-OWQW_Oe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-12" value="从option 79获取&lt;div&gt;终端MAC地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298.5" y="420" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-14" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="378" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YEWJFknuQp4a-OWQW_Oe-15" target="YEWJFknuQp4a-OWQW_Oe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-15" value="通过EUI64&lt;div&gt;算法生成ipv6地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="550" width="131" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-16" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="314.5" y="640" width="91" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YEWJFknuQp4a-OWQW_Oe-19" target="YEWJFknuQp4a-OWQW_Oe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-19" value="通过duid&lt;div&gt;还原mac地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YEWJFknuQp4a-OWQW_Oe-22" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="338" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
